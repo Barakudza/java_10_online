@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class HwSumm {
-    public static void all() throws IOException {
+    public static void SummNumbers() throws IOException {
         System.out.println("Ввод: ");
 
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));

@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class HwHowMuch {
-    public static void hw2() throws IOException {
+    public static void HowMuchLetters() throws IOException {
         System.out.println("Enter word: ");
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         String read = reader.readLine();

@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class HwLessons {
-    public static void hw3() throws IOException{
+    public static void EndLessons() throws IOException{
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         System.out.print("Type number lesson: ");
     int lessonNumber = Integer.parseInt(reader.readLine());
