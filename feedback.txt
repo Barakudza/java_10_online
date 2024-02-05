@@ -1,0 +1,16 @@
+
+1 - Не плохо, однако)
+
+        int startLessons=9*60;
+        int oneLesson = 45;
+        int paired= 110;
+        int notPaired= 50;
+
+        int result = startLessons + oneLesson + (((lessonNumber-1)/2)*paired)+(((lessonNumber-1) %2)*notPaired);
+        System.out.print("Time lesson end " + result/60+":"+result%60);
+
+        алгоритм правильный, но вот эти чудо числа лучше выносить в константы)
+
+        c==48||c==49||c==50||c==51||c==52||c==53||c==54||c==55||c==56||c==57
+
+        а не легче C >=48 && C <=57 ?)
